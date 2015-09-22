@@ -1,0 +1,18 @@
+{
+    "contents" : "# Lab 01\n#Excercise 1\nLengthCT <- c(75,85,91.6,95,NA,105.5,106) #length of deer from head to tail\nTb <- c(0,0,1,NA,0,0,0) # Tb values of animals\nmean(LengthCT ,na.rm = TRUE )\n\n#Excercise 2\nfarm <- c(\"MO\",\"MO\",\"Mo\",\"MO\",\"LN\",\"SE\",\"QM\")\nmonth <- c(11,07,07,NA,09,09,11)\n\nboar <- cbind (month,LengthCT,Tb)\n\nboar\n\nboar[1,]\nboar[,2]\n\ndim(boar)\nnrow(boar)\nncol(boar)\ncolnames(boar)\nrownames(boar)\n\nrownames(boar) <- farm\nrownames(boar)\n\n#EXcercise 3\n\nTb2 <- as.vector(Tb,mode=\"logical\")\nis.vector(Tb2)\nclass(Tb2)\n\n\n",
+    "created" : 1442857844382.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1363418395",
+    "id" : "B3C10FF8",
+    "lastKnownWriteTime" : 1442936908,
+    "path" : "C:/Users/gurz_dhillon/Desktop/DataAnalytics-BasicMethods/CKME 132 Labwork/Lab01.R",
+    "project_path" : "Lab01.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
